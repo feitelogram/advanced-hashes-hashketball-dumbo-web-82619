@@ -262,7 +262,8 @@ def long_name_steals_a_ton?
       if player.keys.join.length > name_length
         name_length = player.keys.join.length 
         long_guy = player.keys
-        binding.pry 
+        binding.pry
+      if player[long_guy[0]][:steals] > 
 end  
 end
 end  
