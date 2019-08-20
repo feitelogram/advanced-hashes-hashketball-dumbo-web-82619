@@ -244,7 +244,7 @@ def player_with_longest_name
     team_info[:players].each do |player|
       binding.pry
     end
-  
+end  
 end
 
 def long_name_steals_a_ton?
