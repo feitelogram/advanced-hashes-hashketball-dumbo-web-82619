@@ -257,17 +257,21 @@ def long_name_steals_a_ton?
   name_length = 0
   steals= 0
   long_steals_guy = nil
+  steals_guy = nil
   game_hash.each do |team, team_info|
     team_info[:players].each do |player|
       if player.keys.join.length > name_length
         name_length = player.keys.join.length 
-        long_guy = player.keys
+        long_guy = player.keys.join
       if player.values[0][:steals] > steals
-        steals = 
-     
+        steals = player.values[0][:steals]
+        steals_guy = player.keys.join        
+end     
 end         
 end  
 end
-end  
+end
+if steals_guy == long_guy 
+  p true 
 end
 
