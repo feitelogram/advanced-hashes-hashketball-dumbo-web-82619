@@ -223,6 +223,9 @@ def most_points_scored
 end
 
 def winning_team
+nets_total = 0 
+hornets_total = 0 
+game_hash[:home].each do 
 end
 
 def player_with_longest_name
