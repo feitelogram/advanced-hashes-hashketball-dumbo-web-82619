@@ -205,6 +205,28 @@ end
 rebounds
 end
 
+def most_points_scored
+  points = 0 
+  game_hash.each do |team, team_info|
+    team_info[:players].each do |player|
+      if player.values[0][:points] > points 
+        points = player.values[0][:points]
+        best_guy = player.keys.join 
+         binding.pry
+      
+  end
+  end
+  end
+   
+  best_guy
+end
 
+def winning_team
+end
 
+def player_with_longest_name
+end
+
+def long_name_steals_a_ton?
+end
 
