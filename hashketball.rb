@@ -226,9 +226,9 @@ def winning_team
 nets_total = 0 
 hornets_total = 0 
 game_hash[:home][:players].each do |player|
-  total += 
-  binding.pry
+  nets_total += player.values[0][:points]
 end
+game_hash[:away]
 end
 
 def player_with_longest_name
