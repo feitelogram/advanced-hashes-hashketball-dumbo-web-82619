@@ -225,7 +225,7 @@ end
 def winning_team
 nets_total = 0 
 hornets_total = 0 
-game_hash[:home][:players].each do |key, value|
+game_hash[:home][:players].each do |player|
   binding.pry
 end
 end
