@@ -272,6 +272,9 @@ end
 end
 end
 if steals_guy == long_guy 
-  p true 
+  p true
+else
+  p false 
+end
 end
 
