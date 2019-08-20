@@ -228,7 +228,14 @@ hornets_total = 0
 game_hash[:home][:players].each do |player|
   nets_total += player.values[0][:points]
 end
-game_hash[:away]
+game_hash[:away][:players].each do |player|
+  hornets_total += player.values[0][:points]
+end
+if nets_total > hornets_total
+  p "Brooklyn Nets"
+else
+  p "Charlotte Hornets"
+end
 end
 
 def player_with_longest_name
