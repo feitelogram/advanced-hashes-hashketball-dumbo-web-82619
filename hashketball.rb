@@ -267,16 +267,13 @@ def long_name_steals_a_ton?
       if player.values[0][:steals] > steals
         steals = player.values[0][:steals]
         steals_guy = player.keys.join        
-end     
-end         
-end  
-end
-end
+      end     
+    end         
+  end  
 if steals_guy == long_guy 
   p true
 else
   p false 
-end
 end
 end
 
