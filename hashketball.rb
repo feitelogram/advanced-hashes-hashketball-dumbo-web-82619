@@ -213,7 +213,7 @@ def most_points_scored
       if player.values[0][:points] > points 
         points = player.values[0][:points]
         best_guy = player.keys.join 
-         binding.pry
+         #binding.pry
       
   end
   end
