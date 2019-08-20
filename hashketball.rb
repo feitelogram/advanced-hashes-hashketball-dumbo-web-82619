@@ -262,8 +262,9 @@ def long_name_steals_a_ton?
       if player.keys.join.length > name_length
         name_length = player.keys.join.length 
         long_guy = player.keys
-
-        
+        binding.pry 
+end  
+end
 end  
 end
 
