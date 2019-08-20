@@ -248,6 +248,7 @@ def player_with_longest_name
         long_guy = player.keys.join
     end
 end
+end
 long_guy
 end
 
