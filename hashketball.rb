@@ -244,7 +244,7 @@ def player_with_longest_name
   game_hash.each do |team, team_info|
     team_info[:players].each do |player|
       if player.keys.join.length > name_length
-        name_length = 
+        name_length = player.keys.join.length 
         long_guy = player.keys.join
     end
 end
