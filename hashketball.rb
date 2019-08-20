@@ -239,6 +239,8 @@ end
 end
 
 def player_with_longest_name
+  long_guy = nil 
+  
   
 end
 
