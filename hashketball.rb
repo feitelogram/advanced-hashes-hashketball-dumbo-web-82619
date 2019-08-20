@@ -260,6 +260,7 @@ def long_name_steals_a_ton?
     team_info[:players].each do |player|
       if player.keys.join.length > name_length
         name_length = player.keys.join.length 
+        
   
 end
 
